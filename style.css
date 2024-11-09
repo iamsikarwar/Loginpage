@@ -1,0 +1,130 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+
+html, body{
+    height: 100%;
+    width: 100%;
+    background-color: #a3b7c5;
+    display: flex;
+    align-items: center;
+    justify-content: center ;
+    
+}
+
+#main{
+    height: 100%;
+    width: 90%;
+    backdrop-filter: blur(20px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  
+
+
+}
+
+.left{
+    height: 100%;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* background-color: yellow */
+    
+
+
+}
+
+.container form{
+    display: flex;
+    flex-direction: column; 
+    justify-content: center;
+}
+.container h1{
+    font-size:xx-large;
+}
+ 
+.container p{
+    /* font-size: small; */
+    /* font-weight: 100; */
+    opacity: 0.5;
+    margin: 5px;
+}
+
+.google_btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 5px;
+    margin: 10px;
+    padding: 10px;
+    height: 20px;
+
+}
+
+h4{
+    font-size: small;
+    opacity: 0.7;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.loginform{
+    font-size: large;
+    opacity: 0.9;
+    padding: 15px;
+    display: flex; 
+    margin: auto;
+}
+
+input[type=submit]{
+    height: 30px;
+
+}
+
+
+.remember-me{
+    font-size: small;
+    display: flex;
+   align-items: center;
+   justify-content: space-between;
+   margin: 10px;
+    
+}
+
+.checkbox{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.right{
+    display: flex;
+    background-size: cover;
+    background-position: center;
+    border: 2px ;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    padding: 5px;
+    /* margin: 10px; */
+    margin-left: 60px;
+    height: 95%;
+    width: 50%;
+    background-image: url(https://images.unsplash.com/photo-1730956473717-b1bb69fc595e?q=80&w=1414&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+}
+
+.right h1, h3 {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    margin: 5px;
+    /* font-size: medium; */
+}
+
